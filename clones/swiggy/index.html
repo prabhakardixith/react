@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+        .logoImage{
+            width: 80px;
+            height: 60px;
+            object-fit: cover;
+            margin-left: 80px;
+            border-radius: 50px;
+        }
+        .headers{
+            margin-top: 0;
+            display:block;
+            height: 73px;
+            padding-top: 0;
+            /* border: 1px solid gray; */
+        }
+        .OfferDiv,.logoDiv,.locationDiv,.searchDiv,.signDiv,.helpDiv,.cartDiv{
+            display: inline-block;
+            vertical-align: middle;
+            
+        }
+
+        .locationDiv{
+            margin-left: 20px;
+            margin-right: 250px;
+        }
+
+        .searchDiv,.OfferDiv,.signDiv,.helpDiv,.cartDiv{
+        /* margin-left: 20%; */
+        margin-left: 45px;
+        }
+      .search{
+        width: 20px;
+        border-radius: 80px;
+        vertical-align: middle;
+      }
+
+      .searchP{
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 5px;
+      }
+      .offerIcon{
+        display: inline-block;
+        width: 26px;
+        vertical-align: middle;
+      }
+
+      .section1{
+        height: 290px;
+        background-color: rgb(9, 19, 33);
+        padding-bottom: 20px;
+      }
+      .dis1,.dis2,.dis3,.dis4{
+        height: 250px;
+        width: 240px;
+        margin-left: 35px;
+        display: inline-block;
+        background-color: wheat;
+        margin-top: 30px;
+        background: none;
+      }
+      .disimg,.dis1img,.dis2img,.dis3img{
+        width: 240px;
+        height: 240px;
+        vertical-align: middle;
+      }
+      .dis2{
+        margin-left: 100px;
+      }
+      .nextDiv{
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .nextIcon{
+        display: inline-block;
+        width: 50px;
+        background-color: white;
+        border-radius: 50px;
+        vertical-align: middle;
+      }
+      .dis1{
+        width: 220px;
+      }
+      .dis1,.dis2,.dis3,.dis4{
+        cursor: pointer;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <header class="headers">
+      <div class="logoDiv">
+        <img class="logoImage" src="./images/logo.png" alt="" srcset="" />
+      </div>
+      <div class="locationDiv">
+        <p>Other 41/58, karthik residency, omkar hills</p>
+      </div>
+      <div class="searchDiv"><p >&nbsp; <img class="search" src="./images/s3.png" alt="" srcset=""> Search</p></div>
+      <div class="OfferDiv"> <p><img class="offerIcon" src="/swiggy//images/offer.png" alt="">&nbsp;Offers</p></div>
+      <div class="signDiv"> <p> Sign In</p></div>
+
+      <div class="helpDiv"><p> Help </p></div>
+      <div class="cartDiv"><p class="cart"> Cart</p></div>
+    </header>
+    <main>
+        <section class="section1">
+            <div>
+            <div class="dis2"><img class="dis1img" src="/swiggy//images//section1/dis1.webp" alt="" srcset=""></div>
+            <div class="dis3"><img class="dis2img" src="/swiggy//images//section1/dis2.jpeg" alt="" srcset=""></div>
+            <div class="dis4"><img class="dis3img" src="/swiggy//images//section1/dis3.jpeg" alt="" srcset=""></div>
+            <div class="dis1"><img class="disimg" src="/swiggy//images//section1/dis.jpeg" alt="" srcset=""></div>
+           <div class="nextDiv"><img class="nextIcon" src="./images/next.png" alt="" srcset=""></div>
+        </div>
+        </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    color: purple;
+}
+
+/* input,button{
+    font: inherit;
+} */
+
+p{
+    text-decoration:underline;
+    text-transform: capitalize;
+    text-align:justify;
+    text-indent: 3em;
+    line-height: 1.5;
+}

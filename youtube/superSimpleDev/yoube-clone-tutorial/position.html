@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Position</title>
+  </head>
+  <body style="height: 3000px; padding-top: 60px; padding-left: 90px">
+    <div
+      style="
+        background-color: black;
+        color: white;
+        height: 50px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 1;
+      "
+    >
+      Header
+    </div>
+
+    <div
+      style="
+        background-color: purple;
+        width: 200px;
+        position: fixed;
+        left: 0;
+        top: 50px;
+        bottom: 0;
+        width: 90px;
+      "
+    >
+      Side Bar
+      <div
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          top: 0;
+          right: 0;
+        "
+      >
+        X
+      </div>
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 60px;
+        right: 10px;
+      "
+    >
+      absolute
+    </div>
+
+    <div style="background-color: lightblue; height: 200px; width: 200px">
+      div 1
+    </div>
+
+    <div
+      style="
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      div 2
+      <div
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          bottom: 0;
+          right: 0;
+        "
+      >
+        absolute
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <style>
+      .header {
+        text-align: center;
+        color: purple;
+        border-bottom: 1px solid black;
+        margin-bottom: 0;
+      }
+
+      .todoContainer {
+        display: inline-block;
+        width: 400px;
+        height: 400px;
+        background-color: papayawhip;
+        margin-bottom: 0;
+      }
+      .todoBox {
+        width: 400px;
+        height: 50px;
+        margin-top: 10px;
+      }
+      .todoCheckBox {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        margin-left: 60px;
+      }
+
+      .todoInput{
+        border: 0;
+        background-color: papayawhip;
+        width: 150px;
+        height: 30px;
+        margin-left: 90px;
+        text-align: center;
+        border: 2px solid white;
+
+      }
+      .todoSubmit{
+        margin-left: 20px;
+        width: 70px;
+        height: 35px;
+        border: 2px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div  id="todoContainer" class="todoContainer">
+      <h1 class="header">Todo List</h1>
+      <div id="todoBox" class="todoBox">
+        <div>
+          <!-- <input class="todoCheckBox" type="checkbox" name="" id=""> -->
+        
+            <input class="todoInput" id="inputBox" type="text" placeholder="task"/>
+            <input onclick="addTodo()" class="todoSubmit" id="buttonBox" type="button" value="do">
+         
+        </div>
+        <div class="todoItem"></div>
+      </div>
+    </div>
+    <script src="./todo.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        .subscribe{
+            background-color: rgb(200, 0, 0);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 2px;
+            cursor:pointer;
+            margin-right: 8px;
+            transition: opacity 1s;
+        }
+    
+        .join{
+            background-color: white;
+            border-color: rgb(41, 118, 211);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 2px;
+            padding:10px ;
+            margin-left: 10px;
+            color: rgb(41, 118, 211);
+            cursor: pointer;
+            vertical-align: top;
+            transition: background-color 1s,color 1s;
+        }
+    
+        .tweet{
+            background-color: rgb(2, 156, 255);
+            color: white;
+            border: none;
+            border-radius: 18px;
+            padding: 10px;
+            margin-left: 10px;
+            margin-left: 8px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+           transition: box-shadox 2s;
+        }
+        
+        .subscribe:hover{
+           opacity: 0.7;
+        }
+        .subscribe:active{
+            opacity: 0.5;
+        }
+    
+        .join:hover{
+            background-color: rgb(41, 118, 211);
+            color: white;
+        }
+        .join:active{
+            opacity: 0.5;
+        }
+    
+        .tweet:hover{
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+<button class="subscribe">SUBSCRIBE</button> 
+<button class="join">Join My Channel</button>
+<button class="tweet">TWEET</button>
+</body>
+</html>
+

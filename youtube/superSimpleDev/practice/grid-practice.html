@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        .container-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 20px;
+            background-color: papayawhip;
+            
+        }
+        .preview-grid{
+            display: grid;
+            row-gap: 1fr 1fr 1fr;
+            column-gap: 10px;
+            background-color: whitesmoke;
+            border: 2px solid black;
+        }
+
+        .thum-img1{
+            width: 100%;
+        }
+
+        .profile-grid{
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            /* margin: 0; */
+        }
+
+        .add-friend{
+            height: 50px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-grid">
+        <div class="preview-grid">
+            <div class="thumnail">
+                <img class="thum-img1" src="/yoube-clone-tutorial//thumbnails/thumbnail-1.webp" alt="" srcset="">
+            </div>
+            <div class="description">
+                <p style="margin: 0;">Name</p>
+                <div class="profile-grid">
+                    <p>profile</p>
+                    <p>friends list</p>
+                </div>
+                <button class="add-friend">add friends</button>
+            </div>
+            
+        </div>
+
+        <div class="preview-grid">
+            <div class="thumnail">
+                thumnail
+            </div>
+            <div class="description">
+                description
+            </div>
+        </div>
+        <div class="preview-grid">
+            <div class="thumnail">
+                thumnail
+            </div>
+            <div class="description">
+                description
+            </div>
+        </div>
+    </div>
+</body>
+</html>

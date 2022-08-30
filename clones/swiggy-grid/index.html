@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiggy Grid</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .Header-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        height: 90px;
+      }
+      header div {
+        background-color: gray;
+      }
+      .ads{
+        background-color: rgb(9, 9, 33);
+        height:280px;
+        display: grid;
+        grid-template-rows: 1fr;
+        padding:40px 70px;
+      }
+      .Ads-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;  
+        column-gap: 40px;  
+      }
+      .Ads-grid div{
+        background-color: white;
+      }
+      .dis1,.ds2,.ds3,.ds4{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="Header-grid">
+      <div>img</div>
+      <div>Location</div>
+      <div>Search</div>
+      <div>Offers</div>
+      <div>Help</div>
+      <div>Sign in</div>
+      <div>Cart</div>
+    </header>
+    <section class="ads">
+      <section class="Ads-grid">
+        <!--  -->
+        <div><img class="dis1" src="/images//section1/dis1.webp" alt="" srcset=""></div>
+        <div><img class="dis1" src="/images//section1/dis2.jpeg" alt="" srcset=""></div>
+        <div><img class="dis1" src="/images//section1/dis3.jpeg" alt="" srcset=""></div>
+        <div><img class="dis1" src="/images//section1/dis.jpeg" alt="" srcset=""></div>
+      </section>
+    </section>
+  </body>
+</html>

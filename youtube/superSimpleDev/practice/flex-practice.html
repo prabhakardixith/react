@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox Practice</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .flex-Container {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        border: 2px solid rgb(194, 191, 191);
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .flex-right {
+        flex: 300px;
+      }
+      .flex-item2 {
+        flex: 400px;
+        border: 2px solid rgb(231, 228, 228);
+      }
+      .flex-item1 {
+        flex: 300px;
+      }
+
+      .flex-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+      }
+
+      .flex-right div {
+        margin-right: 20px;
+      }
+
+      .input-box {
+        width: 300px;
+        height: 35px;
+        color: gray;
+        font-size: small;
+      }
+      .flex-item2 p {
+        margin: 0;
+      }
+
+      nav{
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        border: 2px solid gray;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      nav div{
+        flex: 100px;
+        
+        font-size: 10px;
+        
+      }
+
+      main{
+        display: inline-block;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="flex-Container">
+      <div class="flex-item1">
+        <p class="">YouTube Icon</p>
+      </div>
+      <div class="flex-item2">
+        <input
+          class="input-box"
+          type="search"
+          name=""
+          id=""
+          placeholder="Search"
+        />
+        <p style="display: inline-block; height: 10px">search-Button</p>
+        <p style="display: inline-block; height: 8px">search-icon</p>
+      </div>
+      <div class="flex-right">
+        <div>icon1</div>
+        <div>icon2</div>
+        <div>icon3</div>
+        <div>icon4</div>
+      </div>
+    </div>
+
+    <nav >
+        <div>Home</div>
+        <div>Explore</div>
+        <div>Subscriptions</div>
+        <div>Originals</div>
+        <div>Library</div>
+    </nav>
+
+  </body>
+</html>
+
+
+
+
+
+

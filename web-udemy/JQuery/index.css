@@ -1,0 +1,33 @@
+.head{
+  font-size: 1rem;
+  color: red;
+}
+
+.margin{
+  margin: 2rem;
+}
+
+.margin-10{
+  margin: 10rem;
+}
+
+
+.h1-1{
+  color: yellow;
+  font-size: 4rem;
+}
+
+.h1-2{
+  color: purple;
+  font-size: 4rem;
+}
+
+.h1-3{
+  color: red;
+  font-size: 4rem;
+}
+
+.h1-4{
+  color: blue;
+  font-size: 4rem;
+}

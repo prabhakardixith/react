@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail IOS</title>
+    <style>
+        main
+        {
+            border: 1px solid brown;
+            display: inline-block;
+        }
+      .main-flex {
+        display: flex;
+        flex-direction: row;
+        /* background-color: brown; */
+        height: 100px;
+        width: 500px;
+        justify-content: space-evenly;
+        align-items: center;
+       
+      }
+
+      .flex-profile {
+        flex: 1;
+      }
+
+      .flex-desc {
+        height: 100px;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .heading {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 1px;
+      }
+      .content {
+        line-height: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="main-flex">
+        <div class="flex-profile">img</div>
+        <div class="flex-desc">
+          <div class="heading">
+            <div>Chewy Promotions</div>
+            <div>10:20 PM</div>
+          </div>
+          <div class="content">
+            Biggest sales of the year <br />
+            Hey there! We're writing to tell you about our....
+          </div>
+        </div>
+      </div>
+      <!-- 2nd -->
+      <div class="main-flex">
+        <div class="flex-profile">img</div>
+        <div class="flex-desc">
+          <div class="heading">
+            <div>Best Buy</div>
+            <div>12:36 PM</div>
+          </div>
+          <div class="content">
+            Biggest sales of the year <br />
+            Hey there! We're writing to tell you about our....
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
